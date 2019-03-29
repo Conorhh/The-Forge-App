@@ -1,0 +1,598 @@
+/*General CSS*/
+a{
+  text-decoration: none;
+  outline: 0;
+  color: inherit;
+
+}
+
+input:focus {
+    outline:none;
+}
+
+.blueDot{
+  color:#42BEE0;
+  font-weight: 800;
+}
+
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h2{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  color: #364047;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+h3{
+  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  color: #C2C0C0;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #364047;
+}
+
+h5{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #364047;
+  text-align: center;
+}
+
+h6{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+
+p{
+  color: #969AA1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.bold{
+  font-weight: 500;
+}
+
+
+
+
+/*nav CSS*/
+.nav{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  margin: 0 auto;
+}
+
+.nav span{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #45BEDF;
+  padding: 13px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  outline: 0;
+}
+
+
+
+
+
+/*Hero CSS*/
+#hero{
+  height: 110vh;
+  background-image: url("circuitBG.png"), linear-gradient(135deg, #2c373e 0%,#676f75 100%);
+  background-size: contain;
+  background-position:bottom;
+  background-repeat: no-repeat;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-appStores{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.hero-appStores img{
+  width: 25%;
+}
+
+.hero-appStores:hover{
+
+  transition: 0.2s;
+  opacity: .7;
+}
+
+.iPhones{
+  padding-bottom: 100px;
+}
+
+.getTheApp{
+  display: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: #45BEDF;
+  padding: 13px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  outline: 0;
+}
+
+
+
+
+/*main CSS*/
+
+#main{
+  padding-top: 250px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.about{
+  text-align: center;
+  min-height: 300px;
+
+}
+
+
+.featureRow{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+
+.feature{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.featureIcon{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px;
+  padding: 56px;
+  margin-bottom: 20px;
+}
+
+.simpleIcon{
+    background-image: url(../images/feature-icons/featureOne-description.svg);
+    background-size: 48px;
+}
+
+.brandIcon{
+  background-image: url(../images/feature-icons/featureOne-Brands.svg);
+}
+
+.impactIcon{
+  background-image: url(../images/feature-icons/featureOne-Impact.svg);
+  background-size: 110px;
+}
+
+
+.compatibilityIcon{
+  background-image: url(../images/feature-icons/featureTwo-Compatibility.svg);
+  background-size:80px;
+}
+
+.simpleSpecIcon{
+  background-image: url(../images/feature-icons/featureTwo-SimpleSpec.svg);
+}
+
+.performanceIcon{
+  background-image: url(../images/feature-icons/featureTwo-Performance.svg);
+  background-size: 111px;
+}
+
+
+
+.prepIcon{
+  background-image: url(../images/feature-icons/featureThree-Tools.svg);
+  background-size: 68px;
+}
+
+.stepIcon{
+  background-image: url(../images/feature-icons/featureThree-Steps.svg);
+  background-size: 110px;
+}
+
+.troubleshootingIcon{
+  background-image: url(../images/feature-icons/featureThree-Troubleshooting.svg);
+  background-size: 100px;
+}
+
+
+
+
+/*brands CSS*/
+
+
+.brands{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.brands img{
+  width: 70%;
+}
+
+.brandsSmall{
+  display: none;
+}
+
+
+
+
+
+/*callToAction CSS*/
+
+.callToAction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(45deg, rgba(114,205,230,1) 0%, rgba(66,189,223,1) 100%);
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+
+.callToAction h2{
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 10px
+}
+
+.callToAction h3{
+  color: #E9EFF0;
+  font-size: 20px;
+}
+
+
+
+
+
+/*footer CSS*/
+
+.footer{
+  background-image: linear-gradient(230deg, #2c373e 0%,#676f75 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.footer h3{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.footer p{
+  margin: 0;
+  padding: 0;
+}
+
+.social{
+  padding: 15px;
+  margin: 40px;
+  border: 1px solid #C2C2C2;
+  border-radius: 7px;
+}
+
+.social a{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.formSubmit{
+  background: #45BEDF;
+  color: white;
+  text-shadow:none;
+  font-family: 'Roboto', sans-serif;
+  height: 50px;
+  width: 95px;
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  margin-left: -10px;
+  padding: 0;
+}
+
+.formSubmit:hover{
+  background-color: #2293B3;
+  transition: 0.3s;
+}
+
+
+
+.formEmail{
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  height: 50px;
+  width: 300px;
+  border: 0;
+  padding: 0;
+  border-radius: 5px 0 0 5px;
+  padding-left: 15px;
+}
+
+.footer p{
+  margin-top: 30px;
+}
+
+
+
+
+
+/*****************MEDIA QUERIES***************/
+
+/* ----------- iPhone X ----------- */
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    /*nav CSS*/
+    .nav{
+      width: 100%;
+      flex-direction: column;
+      padding-top: 50px;
+      justify-content: space-around;
+      margin-bottom: -40px;
+    }
+
+    .nav span{
+      display: none;
+    }
+
+
+    /*Hero CSS*/
+
+    .getTheApp{
+      display: block;
+      margin-bottom: 55px;
+    }
+
+    h1{
+      font-size: 42px;
+      margin-bottom: 30px;
+    }
+
+    h3{
+      margin-bottom: 30px;
+    }
+
+    .hero-appStores{
+      display: none;
+    }
+
+
+    #hero{
+      height: 85vh;
+      background-size: cover;
+    }
+
+    .hero-content{
+      width: 90%;
+    }
+
+    .iPhones{
+      width: 100%;
+    }
+
+
+
+    /*main CSS*/
+
+    #main{
+      padding-top: 140px;
+      width: 90%;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+
+    .about{
+      min-height: 280px;
+    }
+
+    .featureRow{
+      flex-direction: column;
+      justify-content:center;
+      padding-bottom: 100px;
+    }
+
+    .feature{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+
+    .featureIcon{
+      padding: 56px;
+      margin-bottom: 0;
+    }
+
+    .brandsBig{
+      display: none;
+    }
+
+    .brandsSmall{
+      display: block;
+    }
+
+    .brands img{
+      width: 90%;
+    }
+
+    .callToAction{
+      display: none;
+    }
+
+
+    /*footer CSS*/
+
+    .social a{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .formSubmit{
+      background: #45BEDF;
+      color: white;
+      text-shadow:none;
+      font-family: 'Roboto', sans-serif;
+      height: 50px;
+      width: 95px;
+      border: 0;
+      border-radius: 0 5px 5px 0;
+      margin-left: -10px;
+      padding: 0;
+    }
+
+    .footer h3{
+      text-align: center;
+    }
+
+    .formSubmit:hover{
+      background-color: #2293B3;
+      transition: 0.3s;
+    }
+
+
+
+    .formEmail{
+      width: 240px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
